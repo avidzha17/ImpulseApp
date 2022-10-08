@@ -8,24 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		6A70438628EC938600E54ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A70438528EC938600E54ED6 /* AppDelegate.swift */; };
-		6A70438828EC938600E54ED6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A70438728EC938600E54ED6 /* SceneDelegate.swift */; };
-		6A70438A28EC938600E54ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A70438928EC938600E54ED6 /* ViewController.swift */; };
-		6A70438D28EC938600E54ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A70438B28EC938600E54ED6 /* Main.storyboard */; };
 		6A70439028EC938600E54ED6 /* ImpulseApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A70438E28EC938600E54ED6 /* ImpulseApp.xcdatamodeld */; };
 		6A70439228EC938800E54ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A70439128EC938800E54ED6 /* Assets.xcassets */; };
-		6A70439528EC938800E54ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A70439328EC938800E54ED6 /* LaunchScreen.storyboard */; };
+		6A70439F28EC94A300E54ED6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A70439E28EC94A300E54ED6 /* Coordinator.swift */; };
+		6A7043A228EC94F900E54ED6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7043A128EC94F900E54ED6 /* AppCoordinator.swift */; };
+		6A7043A628EC957900E54ED6 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7043A528EC957900E54ED6 /* OnboardingCoordinator.swift */; };
+		6A7043AB28EC969900E54ED6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7043AA28EC969900E54ED6 /* StartViewController.swift */; };
+		6A7043AD28EC99C700E54ED6 /* CommonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7043AC28EC99C700E54ED6 /* CommonButton.swift */; };
+		6A7043B028EC9B1700E54ED6 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7043AF28EC9B1700E54ED6 /* StartView.swift */; };
+		6A7043B228EC9B3200E54ED6 /* InitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7043B128EC9B3200E54ED6 /* InitView.swift */; };
+		6AEDA58228EDE7A5002DCA63 /* StartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA58128EDE7A5002DCA63 /* StartPresenter.swift */; };
+		6AEDA58428EDE8DD002DCA63 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA58328EDE8DD002DCA63 /* CarouselView.swift */; };
+		6AEDA58628EDE8E8002DCA63 /* CarouselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA58528EDE8E8002DCA63 /* CarouselViewController.swift */; };
+		6AEDA58828EDE8F4002DCA63 /* CarouselPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA58728EDE8F4002DCA63 /* CarouselPresenter.swift */; };
+		6AEDA59428EDEB6B002DCA63 /* CarouselPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA59328EDEB6B002DCA63 /* CarouselPageView.swift */; };
+		6AEDA5B128EF39DD002DCA63 /* StartConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA5B028EF39DD002DCA63 /* StartConfigurator.swift */; };
+		6AEDA5B328EF3A75002DCA63 /* CarouselConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA5B228EF3A75002DCA63 /* CarouselConfigurator.swift */; };
+		6AEDA5BA28F07EF5002DCA63 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA5B928F07EF5002DCA63 /* TimerViewController.swift */; };
+		6AEDA5BC28F07F24002DCA63 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA5BB28F07F24002DCA63 /* TimerView.swift */; };
+		6AEDA5BE28F087A8002DCA63 /* TimerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA5BD28F087A8002DCA63 /* TimerPresenter.swift */; };
+		6AEDA5C028F087B8002DCA63 /* TimerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA5BF28F087B8002DCA63 /* TimerConfigurator.swift */; };
+		6AEDA5C228F15105002DCA63 /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDA5C128F15105002DCA63 /* UserDefaultsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A70438228EC938600E54ED6 /* ImpulseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpulseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A70438528EC938600E54ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A70438728EC938600E54ED6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6A70438928EC938600E54ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A70438C28EC938600E54ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A70438F28EC938600E54ED6 /* ImpulseApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImpulseApp.xcdatamodel; sourceTree = "<group>"; };
 		6A70439128EC938800E54ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6A70439428EC938800E54ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A70439628EC938800E54ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A70439E28EC94A300E54ED6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		6A7043A128EC94F900E54ED6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6A7043A528EC957900E54ED6 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		6A7043AA28EC969900E54ED6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		6A7043AC28EC99C700E54ED6 /* CommonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonButton.swift; sourceTree = "<group>"; };
+		6A7043AF28EC9B1700E54ED6 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		6A7043B128EC9B3200E54ED6 /* InitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitView.swift; sourceTree = "<group>"; };
+		6AEDA58128EDE7A5002DCA63 /* StartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPresenter.swift; sourceTree = "<group>"; };
+		6AEDA58328EDE8DD002DCA63 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		6AEDA58528EDE8E8002DCA63 /* CarouselViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewController.swift; sourceTree = "<group>"; };
+		6AEDA58728EDE8F4002DCA63 /* CarouselPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPresenter.swift; sourceTree = "<group>"; };
+		6AEDA59328EDEB6B002DCA63 /* CarouselPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPageView.swift; sourceTree = "<group>"; };
+		6AEDA5B028EF39DD002DCA63 /* StartConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartConfigurator.swift; sourceTree = "<group>"; };
+		6AEDA5B228EF3A75002DCA63 /* CarouselConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselConfigurator.swift; sourceTree = "<group>"; };
+		6AEDA5B928F07EF5002DCA63 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		6AEDA5BB28F07F24002DCA63 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		6AEDA5BD28F087A8002DCA63 /* TimerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPresenter.swift; sourceTree = "<group>"; };
+		6AEDA5BF28F087B8002DCA63 /* TimerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConfigurator.swift; sourceTree = "<group>"; };
+		6AEDA5C128F15105002DCA63 /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +88,119 @@
 		6A70438428EC938600E54ED6 /* ImpulseApp */ = {
 			isa = PBXGroup;
 			children = (
-				6A70438528EC938600E54ED6 /* AppDelegate.swift */,
-				6A70438728EC938600E54ED6 /* SceneDelegate.swift */,
-				6A70438928EC938600E54ED6 /* ViewController.swift */,
-				6A70438B28EC938600E54ED6 /* Main.storyboard */,
+				6A7043A028EC94DE00E54ED6 /* Application */,
+				6A7043A328EC955900E54ED6 /* Presentation */,
+				6A70439C28EC948100E54ED6 /* Development */,
 				6A70439128EC938800E54ED6 /* Assets.xcassets */,
-				6A70439328EC938800E54ED6 /* LaunchScreen.storyboard */,
 				6A70439628EC938800E54ED6 /* Info.plist */,
 				6A70438E28EC938600E54ED6 /* ImpulseApp.xcdatamodeld */,
 			);
 			path = ImpulseApp;
+			sourceTree = "<group>";
+		};
+		6A70439C28EC948100E54ED6 /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				6AEDA5C328F15109002DCA63 /* Services */,
+				6A7043AE28EC99CB00E54ED6 /* Views */,
+				6A70439D28EC949700E54ED6 /* Base */,
+			);
+			path = Development;
+			sourceTree = "<group>";
+		};
+		6A70439D28EC949700E54ED6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6A70439E28EC94A300E54ED6 /* Coordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6A7043A028EC94DE00E54ED6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6A70438528EC938600E54ED6 /* AppDelegate.swift */,
+				6A7043A128EC94F900E54ED6 /* AppCoordinator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		6A7043A328EC955900E54ED6 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6A7043A428EC956700E54ED6 /* Onboarding */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6A7043A428EC956700E54ED6 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6A7043A928EC968800E54ED6 /* Timer */,
+				6A7043A828EC962800E54ED6 /* Carousel */,
+				6A7043A728EC962100E54ED6 /* Start */,
+				6A7043A528EC957900E54ED6 /* OnboardingCoordinator.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6A7043A728EC962100E54ED6 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				6AEDA5B028EF39DD002DCA63 /* StartConfigurator.swift */,
+				6AEDA58128EDE7A5002DCA63 /* StartPresenter.swift */,
+				6A7043AA28EC969900E54ED6 /* StartViewController.swift */,
+				6A7043AF28EC9B1700E54ED6 /* StartView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		6A7043A828EC962800E54ED6 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				6AEDA5AF28EF35D1002DCA63 /* Views */,
+				6AEDA5B228EF3A75002DCA63 /* CarouselConfigurator.swift */,
+				6AEDA58528EDE8E8002DCA63 /* CarouselViewController.swift */,
+				6AEDA58728EDE8F4002DCA63 /* CarouselPresenter.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		6A7043A928EC968800E54ED6 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				6AEDA5BF28F087B8002DCA63 /* TimerConfigurator.swift */,
+				6AEDA5BD28F087A8002DCA63 /* TimerPresenter.swift */,
+				6AEDA5B928F07EF5002DCA63 /* TimerViewController.swift */,
+				6AEDA5BB28F07F24002DCA63 /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		6A7043AE28EC99CB00E54ED6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A7043AC28EC99C700E54ED6 /* CommonButton.swift */,
+				6A7043B128EC9B3200E54ED6 /* InitView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AEDA5AF28EF35D1002DCA63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AEDA58328EDE8DD002DCA63 /* CarouselView.swift */,
+				6AEDA59328EDEB6B002DCA63 /* CarouselPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AEDA5C328F15109002DCA63 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6AEDA5C128F15105002DCA63 /* UserDefaultsService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A70439528EC938800E54ED6 /* LaunchScreen.storyboard in Resources */,
 				6A70439228EC938800E54ED6 /* Assets.xcassets in Resources */,
-				6A70438D28EC938600E54ED6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +272,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A70438A28EC938600E54ED6 /* ViewController.swift in Sources */,
+				6AEDA5BC28F07F24002DCA63 /* TimerView.swift in Sources */,
+				6A7043AD28EC99C700E54ED6 /* CommonButton.swift in Sources */,
+				6A7043A228EC94F900E54ED6 /* AppCoordinator.swift in Sources */,
+				6AEDA58428EDE8DD002DCA63 /* CarouselView.swift in Sources */,
 				6A70438628EC938600E54ED6 /* AppDelegate.swift in Sources */,
-				6A70438828EC938600E54ED6 /* SceneDelegate.swift in Sources */,
+				6AEDA58628EDE8E8002DCA63 /* CarouselViewController.swift in Sources */,
+				6AEDA5C028F087B8002DCA63 /* TimerConfigurator.swift in Sources */,
+				6A7043B028EC9B1700E54ED6 /* StartView.swift in Sources */,
+				6AEDA5B328EF3A75002DCA63 /* CarouselConfigurator.swift in Sources */,
 				6A70439028EC938600E54ED6 /* ImpulseApp.xcdatamodeld in Sources */,
+				6AEDA58228EDE7A5002DCA63 /* StartPresenter.swift in Sources */,
+				6A70439F28EC94A300E54ED6 /* Coordinator.swift in Sources */,
+				6A7043A628EC957900E54ED6 /* OnboardingCoordinator.swift in Sources */,
+				6AEDA58828EDE8F4002DCA63 /* CarouselPresenter.swift in Sources */,
+				6AEDA5BA28F07EF5002DCA63 /* TimerViewController.swift in Sources */,
+				6AEDA5C228F15105002DCA63 /* UserDefaultsService.swift in Sources */,
+				6AEDA59428EDEB6B002DCA63 /* CarouselPageView.swift in Sources */,
+				6AEDA5B128EF39DD002DCA63 /* StartConfigurator.swift in Sources */,
+				6A7043B228EC9B3200E54ED6 /* InitView.swift in Sources */,
+				6A7043AB28EC969900E54ED6 /* StartViewController.swift in Sources */,
+				6AEDA5BE28F087A8002DCA63 /* TimerPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6A70438B28EC938600E54ED6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A70438C28EC938600E54ED6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6A70439328EC938800E54ED6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A70439428EC938800E54ED6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6A70439728EC938800E54ED6 /* Debug */ = {
@@ -296,7 +425,7 @@
 				INFOPLIST_FILE = ImpulseApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +437,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,7 +453,7 @@
 				INFOPLIST_FILE = ImpulseApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
